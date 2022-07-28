@@ -1,0 +1,58 @@
+{
+  "33480142-9649-485f-a499-f816de621053": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1588/1.0.1588.2938/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://ccolabs.sharepoint.com/sites/luismiguelramosmarino": {
+        "dataSources": {
+          "luismiguelramosmarino": {
+            "tableName": "85bbb531-361d-409e-997b-e316200b260b"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "luismiguelramosmarino"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "33480142-9649-485f-a499-f816de621053"
+  },
+  "6c8dbb14-310b-417b-8b04-bdfe54fa16aa": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1588/1.0.1588.2938/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://ccolabs.sharepoint.com/sites/luismiguelramosmarino": {
+        "dataSources": {
+          "ordenesdeproductoluismiguelramosmarino": {
+            "tableName": "8309140d-47db-43a4-83f6-92077102d934"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "ordenesdeproductoluismiguelramosmarino"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "6c8dbb14-310b-417b-8b04-bdfe54fa16aa"
+  }
+}

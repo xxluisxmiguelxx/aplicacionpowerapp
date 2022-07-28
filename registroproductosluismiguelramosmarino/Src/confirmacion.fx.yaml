@@ -1,0 +1,90 @@
+"confirmacion As screen.'tabletLayout_Success_ver3.0'":
+    Fill: =RGBA(39, 113, 194, 1)
+
+    iconCircle1 As circle.Circle:
+        BorderColor: =RGBA(184, 0, 0, 1)
+        Fill: =RGBA(255, 0, 0, 1)
+        Height: =205
+        Width: =314
+        X: =543
+        Y: =125
+        ZIndex: =1
+
+    LblSuccessMsg1 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(39, 113, 194, 1)
+        FontWeight: =FontWeight.Bold
+        LineHeight: =2
+        Size: =25
+        Text: |-
+            ="ID DEL PRODUTO ES: " & registroproducto.LastSubmit.Title
+        Width: =1035
+        X: =180
+        Y: =354
+        ZIndex: =3
+
+    Icon1 As icon.BackArrow:
+        Height: =94
+        Icon: =Icon.BackArrow
+        OnSelect: =Navigate(registro)
+        Width: =102
+        X: =65
+        Y: =639
+        ZIndex: =4
+
+    LblSuccessMsg1_1 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(39, 113, 194, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =47
+        Size: =25
+        Text: ="Se registro correctamente los datos del producto."
+        Width: =1366
+        Y: =405
+        ZIndex: =5
+
+    Icon2 As icon.EmojiSmile:
+        BorderColor: =RGBA(151, 0, 0, 1)
+        Color: =RGBA(54, 176, 75, 1)
+        Fill: =RGBA(39, 113, 194, 1)
+        Height: =168
+        Icon: =Icon.EmojiSmile
+        Width: =310
+        X: =552
+        Y: =473
+        ZIndex: =6
+
+    TextInput4 As text:
+        Color: =RGBA(255, 255, 255, 1)
+        Default: ="Regresar"
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(39, 113, 194, 1)
+        Font: =Font.'Lato Hairline'
+        FontWeight: =FontWeight.Bold
+        Height: =81
+        Size: =17
+        Width: =289
+        X: =180
+        Y: =646
+        ZIndex: =7
+
+    Icon6 As icon.Check:
+        Height: =193
+        Icon: =Icon.Check
+        Width: =166
+        X: =624
+        Y: =125
+        ZIndex: =8
+
+    Icon12_1 As icon.Leave:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =81
+        Icon: =Icon.Leave
+        OnSelect: =Navigate(inicio)
+        Width: =86
+        X: =1251
+        Y: =639
+        ZIndex: =9
+
